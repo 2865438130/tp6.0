@@ -1,0 +1,14 @@
+{
+    "name": "shinyboys/tp6.0",
+    "description": "test",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "liangchenyang",
+            "email": "23426945@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
