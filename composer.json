@@ -9,6 +9,11 @@
             "email": "23426945@qq.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "": "src/command/make"
+        }
+    },
     "minimum-stability": "stable",
     "require": {}
 }
