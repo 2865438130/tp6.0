@@ -1,6 +1,6 @@
 ## 用于TP6.0的开发工具包
 
-在 `config/console.php` 中配置自定命令
+在 `config/console.php` 中配置自定义命令
 
 ```
 return [
