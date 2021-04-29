@@ -16,7 +16,7 @@ return [
 
 快速创建基础库、逻辑层类文件
 
-```shell
+```s
 php think lib Alipay
 
 php think lib api@WechatPay
