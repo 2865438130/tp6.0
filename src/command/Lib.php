@@ -12,24 +12,24 @@ namespace liang\tp6\command;
 
 use think\console\command\Make;
 
-class Logic extends Make
+class Lib extends Make
 {
-    protected $type = "Logic";
+    protected $type = "Lib";
 
     protected function configure()
     {
         parent::configure();
-        $this->setName('logic')
-            ->setDescription('Create a new logic class');
+        $this->setName('lib')
+            ->setDescription('Create a new lib class');
     }
 
     protected function getStub(): string
     {
-        return __DIR__ . DIRECTORY_SEPARATOR . 'stubs' . DIRECTORY_SEPARATOR . 'logic.stub';
+        return __DIR__ . DIRECTORY_SEPARATOR . 'stubs' . DIRECTORY_SEPARATOR . 'lib.stub';
     }
 
     protected function getNamespace(string $app): string
     {
-        return parent::getNamespace($app) . '\\logic';
+        return parent::getNamespace($app) . '\\lib';
     }
 }
