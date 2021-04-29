@@ -13,7 +13,7 @@ use Throwable;
 /**
  * 应用异常处理类
  */
-class ExceptionHandle extends Handle
+class ApiExceptionHandle extends Handle
 {
     /**
      * 不需要记录信息（日志）的异常类列表

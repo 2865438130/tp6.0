@@ -35,7 +35,7 @@ php think logic api@User
 
 return [
     // 自定义异常处理
-    'think\exception\Handle' => liang\tp6\ExceptionHandle::class,
+    'think\exception\Handle' => liang\tp6\ApiExceptionHandle::class,
 ];
 ```
 
