@@ -28,7 +28,7 @@ php think logic api@User
 
 自定义异常处理: provider.php 可放在应用目录下, 仅在当前应用下生效
 
-```
+```php
 <?php
 
 // 容器Provider定义文件
@@ -41,7 +41,7 @@ return [
 
 自定义函数
 
-```
+```php
 if ( ! function_exists('msg') )
 {
 	/**
