@@ -1,6 +1,6 @@
 {
     "name": "shinyboys/tp6.0",
-    "description": "test",
+    "description": "适用于TP6.0框架的个人开发工具包",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -10,8 +10,11 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "": "src/"
+        "files": [
+            "src/helper.php"
+        ],
+        "psr-4": {
+            "liang\\tp6\\": "src/"
         }
     },
     "minimum-stability": "stable",

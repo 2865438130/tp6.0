@@ -7,9 +7,9 @@ return [
     // 指令定义
     'commands' => [
         // 创建基础库类文件
-        'lib'   => Lib::class,
+        'lib'   => liang\tp6\command\Lib::class,
         // 创建逻辑层类文件
-        'logic' => Logic::class,
+        'logic' => liang\tp6\command\Logic::class,
     ],
 ];
 ```
